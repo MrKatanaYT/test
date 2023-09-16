@@ -1,0 +1,36 @@
+:root .app-3xd6d0::before, :root .app-3xd6d0::after, :root .app-2CXKsg::after, :root .app-2CXKsg::before, :root .layers-OrUESM::before, :root .layers-OrUESM::after, :root .app-3xd6d0::before, :root .bg-1QIAus::after, :root .bg-1QIAus::before {
+  content: "";
+  position: fixed;
+  z-index: 1;
+  pointer-events: none;
+}
+:root .app-3xd6d0::before {
+  left: 0;
+  top: 0;
+  width: 250px;
+  height: 250px;
+  background: url("https://imgur.com/4jdWWql") no-repeat;
+  background-size: 100%;
+}
+:root .app-3xd6d0::after {
+  z-index: 0;
+  left: 50px;
+  bottom: 0;
+  width: 490px;
+  height: 40px;
+  background: url("https://imgur.com/Wy0uYtJ") no-repeat;
+  background-size: 100%;
+}
+:root .app-2CXKsg::after {
+  bottom: 20px;
+  right: 45%;
+  width: 40px;
+  height: 40px;
+  background: url("https://imgur.com/JrAXark");
+  background-size: 100%;
+}
+@media (max-width: 1350px) {
+  :root .bg-1QIAus::before {
+    display: none;
+  }
+}
